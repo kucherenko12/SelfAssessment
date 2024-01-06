@@ -1,106 +1,106 @@
 ## Programming fundamental concepts
 
 - Syntax and concepts
-  - value
-  - identifier
-  - variable
-  - constant
-  - scalar
-  - literal
-  - expression
-  - heap
-  - function
-  - procedure
-  - method
-  - class
-  - prototype
-  - event
-  - type
-  - primitive types
-  - reference types
-  - flag
+  - value 🖐️ used
+  - identifier 🖐️ used
+  - variable 🖐️ used
+  - constant 👂 heard
+  - scalar 🖐️ used
+  - literal 🖐️ used
+  - expression 🖐️ used
+  - heap 🖐️ used
+  - function 🖐️ used
+  - procedure 🖐️ used
+  - method 🖐️ used
+  - class 🖐️ used
+  - prototype 🎓 known
+  - event 🎓 known
+  - type 🖐️ used
+  - primitive types 🖐️ used
+  - reference types 🖐️ used
+  - flag 🖐️ used
   - lexical scope
-  - code block
-  - conditions
-  - loops
-  - assignment
+  - code block 🖐️ used
+  - conditions 🖐️ used
+  - loops 🖐️ used
+  - assignment 🖐️ used
   - regular expression
-  - interface
+  - interface 🖐️ used
   - contract
-  - module
-  - call stack
+  - module 🖐️ used
+  - call stack 🎓 known
 - Functions
-  - signature
-  - argument
-  - parameter
-  - pure function
-  - lambda expression
-  - side effects
+  - signature 🖐️ used
+  - argument 🖐️ used
+  - parameter 🖐️ used
+  - pure function 👂 heard
+  - lambda expression 🎓 known
+  - side effects 👂 heard
   - closure
   - partial application
   - curry
   - higher order
-  - recursion
-  - callback
-  - listener
+  - recursion 🖐️ used
+  - callback 👂 heard
+  - listener 🎓 known
   - compose
-  - pipe
+  - pipe 🎓 known
   - memoize
-  - wrapper
+  - wrapper 🖐️ used
   - functor
   - monad
   - monoid
   - generator
-  - coroutine
+  - coroutine 👂 heard
 - Data structures
-  - array
-  - structure
-  - record
-  - enum
-  - instance
-  - object
-  - class
-  - collection
-  - set
-  - hash table
-  - linked list
+  - array 🖐️ used
+  - structure 🖐️ used
+  - record 🎓 known
+  - enum 🖐️ used
+  - instance 🖐️ used
+  - object 🖐️ used
+  - class 🖐️ used
+  - collection 🖐️ used
+  - set 🖐️ used
+  - hash table 🖐️ used
+  - linked list 🖐️ used
   - doubly list
   - unrolled list
   - circular list
-  - queue
-  - stack
-  - deque
-  - tree
-  - graph
-  - iterator
+  - queue 🖐️ used
+  - stack 🖐️ used
+  - deque 
+  - tree 🖐️ used
+  - graph 🖐️ used
+  - iterator 🖐️ used
   - mutable state
   - immutable state
-  - serialization
-  - string parsing
+  - serialization 🖐️ used
+  - string parsing 🖐️ used
 - Process & style
-  - compiler
+  - compiler 🖐️ used
   - transpiler
   - linter
   - polyfill
-  - debugger
-  - garbage collection
-  - refactoring
-  - code review
-  - antipatterns
-  - paradigm
-  - algorithm
-  - magic numbers
-  - hardcode
-  - complexity
-  - decomposition
-  - spaghetti
-  - silver bullet
+  - debugger 🖐️ used
+  - garbage collection 🖐️ used
+  - refactoring 🖐️ used
+  - code review 🎓 known
+  - antipatterns 🎓 known
+  - paradigm 🖐️ used
+  - algorithm 🖐️ used
+  - magic numbers 👂 heard
+  - hardcode 🎓 known
+  - complexity 👂 heard
+  - decomposition 👂 heard
+  - spaghetti 🎓 known
+  - silver bullet 👂 heard
   - not invented here
   - dead code
-  - unreachable code
-  - duplicate code
-  - exception
+  - unreachable code 🖐️ used(happened)
+  - duplicate code 🖐️ used(happened)
+  - exception 🖐️ used(happened)
   - return early
   - unittest
-  - git
-  - github
+  - git 🖐️ used
+  - github 🖐️ used
