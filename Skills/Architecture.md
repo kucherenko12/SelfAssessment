@@ -1,96 +1,100 @@
-## Asynchronous programming
+## Architecture
 
-- Theory
-  - Event loop 🖐️ used
-  - try..catch  🖐️ used
-  - Non-blocking 🎓 known
-  - Async I/O 🎓 known
-  - Thread pool 🖐️ used
-  - Pattern Reactor 🎓 known
-  - CAS operations
-  - epoll
-  - kqueue
-  - Completion ports
-  - Event ports
-  - libuv
-  - Race conditions
-  - Dead locks 🖐️ used
-  - Live locks 🖐️ used
-  - Concurrent programming 🖐️ used
-  - Parallel programming 🖐️ used
-  - Actor Model 🎓 known
-  - Thread 🖐️ used
-  - Process 🎓 known
-- Async contracts
-  - Callbacks 🎓 known
-  - Callback-last-error-first
-  - Thenable
-  - Promise
-  - Async/await 🎓 known
-  - Future
-  - Deferred
-  - Sync generator
-  - Async Generator
-  - Async Iterator
-  - Event 🎓 known
-  - Coroutine 🎓 known
-  - Goroutine
-  - Signal 🎓 known
-  - Stream 🎓 known
-  - Chain of responsibility 🎓 known
-  - Middleware
-  - Locks 🎓 known
-- Async adapters and utils
-  - callbackify
-  - promisify
-  - asyncify
-  - callbacks compose
-  - async compose
-- Async abstractions interfaces
-  - EventEmitter
-  - Observable/Observer
-  - Readable
-  - Writable
-  - Transform
-  - Async Pool
-  - Async Queue
-  - Async Collector
-  - Semaphore
-  - Mutex
-  - Spin Lock
-- JavaScript & Node.js specific
-  - Timers
-  - setImmediate
-  - nextTick
-  - AbortController
-  - AbortSignal
-  - Promise unhandled rejection
-  - Promise double resolve
-  - child_process
-  - worker_threads
-  - Atomics
-  - High resolution clock
-  - Callback hell
-  - Promise hell
-  - ref() and unref()
-  - Error handling in async code
-  - Better stack traces with return await
-  - JSON: streaming serialization
-  - promisify
-  - callbackify
-  - AsyncLocalStorage
-  - AsyncResource
-- Techniques
-  - async.js library
-  - RxJS library
-  - Async composition
-  - Promise.all
-  - Promise.allSettled
-  - Promise.race
-  - Promise.any
-  - Web Locks API
-  - IPC
-  - Channel API
-  - Revealing Constructor
-  - Web Locks API
-
+- Application structure
+  - Modularity 🖐️ used
+  - Components 🖐️ used
+  - Directories 🖐️ used
+  - GRASP 🖐️ used
+  - SOLID 🖐️ used
+  - GoF patterns 🖐️ used
+  - CQS
+  - Leaking abstractions
+  - Multiparadigm code 🖐️ used
+  - Contract programming
+  - Platform-agnostic
+  - Transport-agnostic
+  - Framework-agnostic
+  - Code coverage 🎓 known
+  - Cohesion 🖐️ used
+  - Coupling
+  - Cyclomatic complexity
+  - Reliability 🖐️ used
+  - Quality 🖐️ used
+  - Availability 🖐️ used
+  - Flexibility 🖐️ used
+  - Law of Demeter (LoD)
+- Application architecture
+  - Isolation between layer 🖐️ used
+  - Domain-specific language (DSL) 🎓 known
+  - System vs applied code
+  - Multilayer approach 🖐️ used
+  - Hexagonal architecture
+  - Separation of concerns (SoC)
+  - Metaprogramming 👂 	heard
+  - Inversion of control (IoC) 👂 heard
+  - Dependency injection (DI) 🖐️ used
+  - Clean architecture
+  - Domain-driven design (DDD)
+  - Pub/sub
+  - Message brocker
+  - Agent 👂 heard
+  - Service locator
+  - Message Queue (MQ)
+  - CQRS
+  - Event sourcing
+  - E-R data modeling
+  - Entity-relationship diagram 🖐️ used
+  - IDEF1X
+  - UML 🖐️ used
+  - Work breakdown structure
+  - Budget estimation
+  - Distributed systems 🖐️ used
+  - High-intensive computing
+  - Load balancing 👂 heard
+  - Gateways
+  - On-premises
+  - IaaS
+  - PaaS
+  - SaaS
+  - FaaS clouds
+  - Serverless 👂 heard
+  - Vendor lock-in
+  - Bus factor
+- Solution architecture
+  - A software requirements specification (SRS) 🖐️ used
+  - Solution visions
+  - Solution capabilities
+  - System design
+  - Process modelling
+  - Data modelling
+  - Solution components
+  - Risk assessment 🖐️ used
+  - Non Functional Requirements (NFR) 🖐️ used
+  - Clouds
+  - BPMN 🖐️ used
+  - Low-code
+  - No-code
+  - Metric 🖐️ used
+  - Metric abuse
+  - ACID 👂 heard
+  - CAP theorem
+  - Single source of truth (SSOT)
+- Enterprise architecture
+  - Understanding business needs
+  - Enterprise strategy
+  - Integration with subsystems 👂 heard
+  - Enterprise vision
+  - Enterprise capabilities
+  - Project scope
+  - Enterprise service bus
+  - Service-oriented architecture
+  - Microservices 🖐️ used
+  - Process choreography
+  - Service orchestration
+  - Data warehouse
+  - Business Intelligence
+  - OLAP
+  - OLTP
+  - Conways Law
+  - Quality assurance
+  - Engineering Hygiene
