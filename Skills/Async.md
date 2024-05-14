@@ -1,12 +1,12 @@
 ## Asynchronous programming
 
 - Theory
-  - Event loop
-  - `try..catch`
-  - Non-blocking
-  - Async I/O
-  - Thread pool
-  - Pattern Reactor
+  - Event loop 🖐️ used
+  - try..catch  🖐️ used
+  - Non-blocking 🎓 known
+  - Async I/O 🎓 known
+  - Thread pool 🖐️ used
+  - Pattern Reactor 🎓 known
   - CAS operations
   - epoll
   - kqueue
@@ -14,32 +14,32 @@
   - Event ports
   - libuv
   - Race conditions
-  - Dead locks
-  - Live locks
-  - Concurrent programming
-  - Parallel programming
-  - Actor Model
-  - Thread
-  - Process
+  - Dead locks 🖐️ used
+  - Live locks 🖐️ used
+  - Concurrent programming 🖐️ used
+  - Parallel programming 🖐️ used
+  - Actor Model 🎓 known
+  - Thread 🖐️ used
+  - Process 🎓 known
 - Async contracts
-  - Callbacks
+  - Callbacks 🎓 known
   - Callback-last-error-first
   - Thenable
   - Promise
-  - Async/await
+  - Async/await 🎓 known
   - Future
   - Deferred
   - Sync generator
   - Async Generator
   - Async Iterator
-  - Event
-  - Coroutine
+  - Event 🎓 known
+  - Coroutine 🎓 known
   - Goroutine
-  - Signal
-  - Stream
-  - Chain of responsibility
+  - Signal 🎓 known
+  - Stream 🎓 known
+  - Chain of responsibility 🎓 known
   - Middleware
-  - Locks
+  - Locks 🎓 known
 - Async adapters and utils
   - callbackify
   - promisify
