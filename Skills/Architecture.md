@@ -1,100 +1,96 @@
-## Architecture
+## Asynchronous programming
 
-- Application structure
-  - Modularity
-  - Components
-  - Directories
-  - GRASP
-  - SOLID
-  - GoF patterns
-  - CQS
-  - Leaking abstractions
-  - Multiparadigm code
-  - Contract programming
-  - Platform-agnostic
-  - Transport-agnostic
-  - Framework-agnostic
-  - Code coverage
-  - Cohesion
-  - Coupling
-  - Cyclomatic complexity
-  - Reliability
-  - Quality
-  - Availability
-  - Flexibility
-  - Law of Demeter (LoD)
-- Application architecture
-  - Isolation between layer
-  - Domain-specific language (DSL)
-  - System vs applied code
-  - Multilayer approach
-  - Hexagonal architecture
-  - Separation of concerns (SoC)
-  - Metaprogramming
-  - Inversion of control (IoC)
-  - Dependency injection (DI)
-  - Clean architecture
-  - Domain-driven design (DDD)
-  - Pub/sub
-  - Message brocker
-  - Agent
-  - Service locator
-  - Message Queue (MQ)
-  - CQRS
-  - Event sourcing
-  - E-R data modeling
-  - Entity-relationship diagram
-  - IDEF1X
-  - UML
-  - Work breakdown structure
-  - Budget estimation
-  - Distributed systems
-  - High-intensive computing
-  - Load balancing
-  - Gateways
-  - On-premises
-  - IaaS
-  - PaaS
-  - SaaS
-  - FaaS clouds
-  - Serverless
-  - Vendor lock-in
-  - Bus factor
-- Solution architecture
-  - A software requirements specification (SRS)
-  - Solution visions
-  - Solution capabilities
-  - System design
-  - Process modelling
-  - Data modelling
-  - Solution components
-  - Risk assessment
-  - Non Functional Requirements (NFR)
-  - Clouds
-  - BPMN
-  - Low-code
-  - No-code
-  - Metric
-  - Metric abuse
-  - ACID
-  - CAP theorem
-  - Single source of truth (SSOT)
-- Enterprise architecture
-  - Understanding business needs
-  - Enterprise strategy
-  - Integration with subsystems
-  - Enterprise vision
-  - Enterprise capabilities
-  - Project scope
-  - Enterprise service bus
-  - Service-oriented architecture
-  - Microservices
-  - Process choreography
-  - Service orchestration
-  - Data warehouse
-  - Business Intelligence
-  - OLAP
-  - OLTP
-  - Conways Law
-  - Quality assurance
-  - Engineering Hygiene
+- Theory
+  - Event loop 🖐️ used
+  - try..catch  🖐️ used
+  - Non-blocking 🎓 known
+  - Async I/O 🎓 known
+  - Thread pool 🖐️ used
+  - Pattern Reactor 🎓 known
+  - CAS operations
+  - epoll
+  - kqueue
+  - Completion ports
+  - Event ports
+  - libuv
+  - Race conditions
+  - Dead locks 🖐️ used
+  - Live locks 🖐️ used
+  - Concurrent programming 🖐️ used
+  - Parallel programming 🖐️ used
+  - Actor Model 🎓 known
+  - Thread 🖐️ used
+  - Process 🎓 known
+- Async contracts
+  - Callbacks 🎓 known
+  - Callback-last-error-first
+  - Thenable
+  - Promise
+  - Async/await 🎓 known
+  - Future
+  - Deferred
+  - Sync generator
+  - Async Generator
+  - Async Iterator
+  - Event 🎓 known
+  - Coroutine 🎓 known
+  - Goroutine
+  - Signal 🎓 known
+  - Stream 🎓 known
+  - Chain of responsibility 🎓 known
+  - Middleware
+  - Locks 🎓 known
+- Async adapters and utils
+  - callbackify
+  - promisify
+  - asyncify
+  - callbacks compose
+  - async compose
+- Async abstractions interfaces
+  - EventEmitter
+  - Observable/Observer
+  - Readable
+  - Writable
+  - Transform
+  - Async Pool
+  - Async Queue
+  - Async Collector
+  - Semaphore
+  - Mutex
+  - Spin Lock
+- JavaScript & Node.js specific
+  - Timers
+  - setImmediate
+  - nextTick
+  - AbortController
+  - AbortSignal
+  - Promise unhandled rejection
+  - Promise double resolve
+  - child_process
+  - worker_threads
+  - Atomics
+  - High resolution clock
+  - Callback hell
+  - Promise hell
+  - ref() and unref()
+  - Error handling in async code
+  - Better stack traces with return await
+  - JSON: streaming serialization
+  - promisify
+  - callbackify
+  - AsyncLocalStorage
+  - AsyncResource
+- Techniques
+  - async.js library
+  - RxJS library
+  - Async composition
+  - Promise.all
+  - Promise.allSettled
+  - Promise.race
+  - Promise.any
+  - Web Locks API
+  - IPC
+  - Channel API
+  - Revealing Constructor
+  - Web Locks API
+
