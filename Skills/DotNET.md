@@ -2,24 +2,24 @@
 
 - Core Concepts and Internals
   - Strengths and weaknesses of .NET
-  - Stateful and stateless services
-  - Asynchronous and synchronous programming
-  - Task-based asynchronous pattern
-  - Garbage collection in .NET
-  - .NET runtime versions and support
-  - I/O-bound, CPU-bound tasks
+  - Stateful and stateless services 🎓 known
+  - Asynchronous and synchronous programming 🎓 known
+  - Task-based asynchronous pattern 🎓 known
+  - Garbage collection in .NET 🎓 known
+  - .NET runtime versions and support 🎓 known
+  - I/O-bound, CPU-bound tasks 🎓 known
   - Real-time applications with SignalR
 - Modularity and Dependencies
   - .NET assemblies
-  - NuGet package management
-  - Dependency management in .NET
-  - Dependency Injection in .NET
-  - Inversion of Control (IoC)
-  - IoC containers in .NET
+  - NuGet package management 🎓 known
+  - Dependency management in .NET 👂 heard
+  - Dependency Injection in .NET 👂 heard
+  - Inversion of Control (IoC) 🎓 known
+  - IoC containers in .NETT 👂 heard
   - Middleware and pipeline configuration
   - Modular applications
 - Environment and Tools
-  - Command line interface (CLI) tools
+  - Command line interface (CLI) toolsT 👂 heard
   - .NET CLI
   - Windows Services and Linux Daemons
   - Hosting and Deployment models
@@ -58,7 +58,7 @@
   - ADO.NET for database access
   - Data modeling and migration
   - Repository and Unit of Work patterns
-  - CRUD operations
+  - CRUD operations 🎓 known
 - Error Handling and Debugging
   - Exception handling in .NET
   - Custom error classes
@@ -73,17 +73,17 @@
   - Custom middleware development
 - Cloud and Microservices
   - Integration with cloud platforms (Azure, AWS)
-  - Microservices architecture
+  - Microservices architecture 🖐️ used
   - Containerization with Docker
-  - Kubernetes for orchestration
+  - Kubernetes for orchestration 🖐️ used
   - Serverless computing
 - C# Development
-  - C# syntax and language fundamentals
-  - Advanced C# features (LINQ, async/await, delegates, events)
+  - C# syntax and language fundamentals 🖐️ used
+  - Advanced C# features (LINQ, async/await, delegates, events) 👂 heard
   - Reflection and dynamic programming
-  - Data types and collections
-  - Generics and extension methods
-  - Attributes and annotations
+  - Data types and collections 🖐️ used
+  - Generics and extension methods 🖐️ used
+  - Attributes and annotations 🖐️ used
   - Interoperability with other .NET languages
 - `F#` Development
   - `F#` syntax and language fundamentals
@@ -125,4 +125,4 @@
   - ASP.NET Core
   - Blazor
   - Razor Syntax
-  - RESTful API development
+  - RESTful API development 🖐️ used
